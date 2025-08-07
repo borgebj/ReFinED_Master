@@ -1,4 +1,52 @@
 # ReFinED
+---
+
+## 📌 Nytt – Instruksjoner
+
+### 1. Create virtual environment (recommended)
+```bash
+python -m venv venv
+```
+
+### 2. Activate virtual environment (recommended)
+- **Bash / WSL / macOS**
+```bash
+source venv/bin/activate
+```
+- **Windows (Command Prompt)**
+```cmd
+venv\Scripts\activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set source-path
+- **Bash / WSL / macOS**
+```bash
+export PYTHONPATH=$PYTHONPATH:src
+```
+- **Windows (PowerShell)**
+```powershell
+$env:PYTHONPATH="$env:PYTHONPATH;src"
+```
+
+### 5. Run!
+```bash
+python3 my_tests/run_refined.py
+```
+
+### Deactivate virtual environment
+```bash
+deactivate
+```
+
+
+---
+
+
 ## Quickstart
 ```commandline
 pip install https://github.com/amazon-science/ReFinED/archive/refs/tags/V1.zip
