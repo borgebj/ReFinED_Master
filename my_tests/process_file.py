@@ -20,4 +20,4 @@ if __name__ == "__main__":
     texts = process_csv("data/imdb_top_100.csv")
     print("\n--- First 5 Combined Texts ---")
     for t in texts[:5]:
-        print(t)
+        print(f'\n{t}')
