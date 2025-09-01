@@ -1,7 +1,13 @@
 # ReFinED
 ---
 
-## 📌 Nytt – Instruksjoner
+## 📌 New – Instructions
+
+# ⚠️ Compatibility Notice
+
+This project requires **Python 3.8**.  
+The latest tested working version of the **`transformers`** library is **4.29.2**,  
+since newer releases require Python 3.9+.
 
 ### 1. Create virtual environment (recommended)
 ```bash

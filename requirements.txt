@@ -6,7 +6,7 @@ urllib3>=1.25.8
 Unidecode>=1.1.1
 ujson
 tqdm
-#transformers>=4.2.2
+transformers==4.2.2 # changed, newest doesn't work
 tensorboard
 Cython
 lmdb>=1.0
@@ -14,7 +14,5 @@ boto3
 prettyprint
 botocore
 
-# nytt
+# new libraries
 pandas
-transformers==4.30.2
-tokenizers==0.13.3

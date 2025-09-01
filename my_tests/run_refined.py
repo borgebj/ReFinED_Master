@@ -34,16 +34,16 @@ def fetch_wikidata_labels(qids):
 refined = Refined.from_pretrained(model_name='wikipedia_model_with_numbers',
                                   entity_set="wikipedia")
 
-texts = [
-    "England won the FIFA World Cup in 1966.",
-    "Barack Obama was the 44th President of the United States.",
-    "Amazon was founded by Jeff Bezos.",
-    "Oslo is the capital of Norway, neighbor to Sweden.",
-    "Joe Biden was the previous president in the United States, followed by Donald Trump",
-    "Jordan met with Apple in Washington last week."
-]
+# texts = [
+#     "England won the FIFA World Cup in 1966.",
+#     "Barack Obama was the 44th President of the United States.",
+#     "Amazon was founded by Jeff Bezos.",
+#     "Oslo is the capital of Norway, neighbor to Sweden.",
+#     "Joe Biden was the previous president in the United States, followed by Donald Trump",
+#     "Jordan met with Apple in Washington last week."
+# ]
 
-# texts = process_csv("my_tests/data/imdb_top_100.csv")
+texts = process_csv("my_tests/data/imdb_top_100.csv")
 
 
 for text in texts[:5]:  # Test first 5 rows
